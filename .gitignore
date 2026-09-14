@@ -39,6 +39,7 @@ assets/generated/*
 # Keep deployment/build/QA scripts; generation utilities stay local.
 scripts/*
 !scripts/build.mjs
+!scripts/content.test.mjs
 !scripts/public-config.mjs
 !scripts/public-config.test.mjs
 !scripts/qa-site.mjs

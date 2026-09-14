@@ -1369,7 +1369,7 @@ summary:focus-visible {
   .coin-flight { display: none; }
 }
 
-/* Cartoon direction — current canonical skin */
+/* Current canonical cartoon skin */
 :root {
   --ink: #020302;
   --ink-soft: #090b07;
