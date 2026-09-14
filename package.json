@@ -1,0 +1,15 @@
+{
+  "name": "tribnb-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TriBNB static landing page",
+  "scripts": {
+    "test": "node --check script.js && node --check runtime-config.js && node --check scripts/qa-site.mjs && node --check scripts/build.mjs && node --check scripts/public-config.mjs && node --test scripts/*.test.mjs",
+    "build": "node scripts/build.mjs",
+    "package": "python scripts/package_site.py",
+    "verify": "npm test && npm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
